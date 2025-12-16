@@ -18,10 +18,10 @@ export default function Door({day}:{day:DayT}){
     ${enabled ? "cursor-pointer bg-gray-400" : "cursor-not-allowed bg-gray-700"}`} onClick={()=>{
         setOpen(enabled)
     }}>
-        <div className="h-3/4 flex grow relative">
+        <div className="h-3/4 flex grow relative perspective-[400px]">
             <p className="absolute top-1/2 left-1/2 -translate-1/2">{day.text}</p>
             <div className={`bg-yellow-800 w-1/2 h-full border border-black origin-left duration-500 
-                ${open? "rotate-y-100":"rotate-y-0"}`}></div>
+                ${open? "-rotate-y-100":"rotate-y-0"}`}></div>
             <div className={`bg-yellow-800 w-1/2 h-full border border-black origin-right duration-500 
                 ${open? "rotate-y-100":"rotate-y-0"}`}></div>
         </div>

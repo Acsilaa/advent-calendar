@@ -15,7 +15,7 @@ function App() {
   },[])
 
   return (
-    <div className='flex flex-wrap w-full max-w-7xl max-auto gap-5'>
+    <div className='flex flex-wrap w-full max-w-7xl max-auto gap-15'>
       {days.map((d,i) => <Door key={i} day={d} />)}
     </div>
   )
