@@ -1,0 +1,28 @@
+{
+  "days": [
+    { "day": 1, "text": "Chocolate Truffle" },
+    { "day": 2, "text": "Gingerbread Cookie" },
+    { "day": 3, "text": "Peppermint Bark" },
+    { "day": 4, "text": "Caramel Fudge" },
+    { "day": 5, "text": "Vanilla Shortbread" },
+    { "day": 6, "text": "Cinnamon Roll Bite" },
+    { "day": 7, "text": "Hot Cocoa Bomb" },
+    { "day": 8, "text": "Toffee Crunch" },
+    { "day": 9, "text": "Orange Chocolate Square" },
+    { "day": 10, "text": "Hazelnut Praline" },
+    { "day": 11, "text": "Marzipan Star" },
+    { "day": 12, "text": "Spiced Nut Mix" },
+    { "day": 13, "text": "Milk Chocolate Coin" },
+    { "day": 14, "text": "Raspberry Jelly Sweet" },
+    { "day": 15, "text": "White Chocolate Snowflake" },
+    { "day": 16, "text": "Salted Caramel Square" },
+    { "day": 17, "text": "Dark Chocolate Ganache" },
+    { "day": 18, "text": "Eggnog Truffle" },
+    { "day": 19, "text": "Honey Almond Bite" },
+    { "day": 20, "text": "Cherry Chocolate Chew" },
+    { "day": 21, "text": "Festive Sugar Cookie" },
+    { "day": 22, "text": "Mocha Fudge Cube" },
+    { "day": 23, "text": "Peppermint Cream" },
+    { "day": 24, "text": "Holiday Surprise Treat" }
+  ]
+}
