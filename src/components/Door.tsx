@@ -14,8 +14,8 @@ export default function Door({day}:{day:DayT}){
         )
     },[])
 
-    return <div className={`w-36 h-36 rounded-md flex flex-col gap-3 p-2
-    ${enabled ? "cursor-pointer bg-gray-400" : "cursor-not-allowed bg-gray-700"}`} onClick={()=>{
+    return <div className={`w-36 h-36 rounded-md flex flex-col gap-0 p-2 duration-500
+    ${enabled ? "cursor-pointer bg-gray-400" : "cursor-not-allowed bg-gray-700"} ${open?"bg-yellow-500!":""}`} onClick={()=>{
         setOpen(enabled)
     }}>
         <div className="h-3/4 flex grow relative perspective-[400px]">
